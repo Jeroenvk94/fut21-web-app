@@ -146,7 +146,6 @@
                     }, window.getRandomWait());
                 }
             } else {
-                window.badNotify('Buy failed');
                 writeToLog(player._staticData.firstName + ' ' + player._staticData.lastName + ' [' + player._auction.tradeId + '] ' + price + ' buy failed');
             }
         }));
