@@ -125,7 +125,7 @@
                 };
             }
             else {
-                writeToLog('WARNING!');
+                writeToLog('Search failed. Check CAPTCHA');
                 window.autoBuyerActive = false;
                 window.badNotify('Autobuyer failed!');
             }
